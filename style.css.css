@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image\ 2.png);
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 120px;
+    padding: 46px 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: "Nosifer", sans-serif;
+    color: yellow;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+background-clip:padding-box;
+text-shadow: -1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         1px -1px 0 #000,
+                         -1px -1px 0 #000;
+}
+
+
+ul {
+    display: flex;
+    gap: 79px;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    gap: 3px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 674px;
+    background: linear-gradient(90deg, #F5C22C 0%, #64AA58 28%, #FAFF00 58.5%, #D92E23 100%);
+    width: 692px;
+    height: 119px;
+    border: 11px;
+    border: 11px solid black;
+    font-family: "Irish Grover", system-ui;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.03px;
+    text-align: center;
+
+}
+h1{
+    color: yellow;
+    font-family: "Nosifer", sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 178.42px;
+    text-align: center;
+   
+}
